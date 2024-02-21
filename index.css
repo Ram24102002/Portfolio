@@ -109,25 +109,7 @@
 
 
 
-@media all and (max-width:1000px){
-    .maintext
-    {
-        width: 100%;
-    }
-    .mainimage
-    {
-        opacity: 0;
-    }
-    .frontpgbg
-{
-    
-    height: 500px;
-}
-}
 
-@media all and (max-width:1000px){
-    
-}
 
 .spacebtw
 {
@@ -178,13 +160,7 @@
     to{scale: 1; opacity: 1;}
 } */
 
-@media all and (max-width:1000px)
-{
-    .c-item
-    {
-        height: 350px;
-    }
-}
+
 
 
 
@@ -278,23 +254,63 @@
     .sociallinks
     {
         flex-direction: column;
+        
 
+    }
+
+    .linkss
+    {
+        display: flex;
+        
     }
     .solicard
     {
+        flex-direction: ;
         margin-top: 40px;
         
     }
     #socardscs
     {
-        width: 200px;
-        
         margin: 10px ;
-    
+        
     }
+
+    .socards
+    {
+        width: 170px;
+        height:75px;
+    }
+    #socardscs
+    {
+        width: 170px;
+    }
+    
    
 
 }
+
+
+@media all and (max-width:1000px){
+    .maintext
+    {
+        width: 100%;
+    }
+    .mainimage
+    {
+        opacity: 0;
+    }
+    .frontpgbg
+    {
+        
+        height: 500px;
+    }
+    .c-item
+    {
+        height: 350px;
+    }
+
+}
+
 
 @media all and (min-width:1200px)
 {
@@ -304,7 +320,7 @@
     }
     #socardscs
     {
-        width: 420px;
+        /* width: 420px; */
         
         margin: 10px ;
     
