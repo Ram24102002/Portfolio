@@ -320,7 +320,7 @@
     }
     #socardscs
     {
-        /* width: 420px; */
+        width: 420px;
         
         margin: 10px ;
     
@@ -337,7 +337,10 @@ footer
 {
     height: 635px;
     background-image: url(fooimg.jpg);
+    background-repeat:
 }
+
+
 
 a
 {
