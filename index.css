@@ -148,6 +148,11 @@
     /* object-fit: cover; */
     filter: brightness(0.6);
 }
+.c-img:hover
+{
+    filter:brightness(1)
+}
+
 
 /* .carousel-inner > .c-item
 {
