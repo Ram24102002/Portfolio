@@ -34,6 +34,10 @@
     /* flex: 1 0 12 rem; */
 }
 
+.objective
+{
+    text-align: justify;
+}
 
 
 /* view skills btn */
@@ -116,6 +120,28 @@
     width: 20%;
 }
 
+.cv-btn
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #f3c143;
+    border: none;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: rgb(126, 125, 125) 0px 1px 40px 1px;
+    margin-left: 85%;
+    transition: 1s;
+}
+.cv-btn:hover
+{
+    height: 120px;
+    width: 120px;
+}
+.cv-btn:active
+{
+    box-shadow: rgb(243, 230, 230) 0px 1px 40px 1px; 
+}
 
 
 .mainimage
@@ -202,9 +228,14 @@
 
 #skillcards
 {
+    /* width: 0px; */
     margin-top: 40px;
+    transition: 1s;
     
-    
+}
+#skillcards:hover
+{
+    padding: 20px;
 }
 
 
@@ -270,13 +301,14 @@
     }
     .solicard
     {
-        flex-direction: ;
+        /* flex-direction: ; */
         margin-top: 40px;
         
     }
     #socardscs
     {
         margin: 10px ;
+
         
     }
 
