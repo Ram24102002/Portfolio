@@ -47,7 +47,7 @@
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="" class="nav-link">About Me</a>
+            <a href="" class="nav-link text-decoration-underline" style="opacity: 0.8;">About Me</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -67,19 +67,11 @@
               <li><a class="dropdown-item text-danger" href="https://www.facebook.com/ramachandran.a.714">Facebook</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown" role="button" data-bs-toggle="collapse" data-bs-target="#dropdown-menu">
-            <a href="" class="nav-link dropdown-toggle">Documents</a>
-            <div class="navbar-collapse collapse">
-              <ul class="dropdown-menu text-bg-dark border-light p-3" id="dropdown-menu">
-                <li><a href="docs-src/Ramachandran-A-Professional-Resume.pdf" class="dropdown-item text-danger">Resume</a></li>
-                <li><a href="" class="dropdown-item text-danger"></a></li>
-                <li><a href="" class="dropdown-item text-danger"></a></li>
-              </ul>
-            </div>
-            
+          <li class="nav-item">
+            <a href="docs-src/Ramachandran-A-Professional-Resume.pdf" class="nav-link">Documents</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link" >Help</a>
+            <a href="" class="nav-link text-danger active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" id="help" >Help</a>
           </li>
           <li class="nav-item">
             <a href="" class="nav-link text-danger active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="setting" >Settings</a>
@@ -92,7 +84,33 @@
 
   </nav>
   
+
+<!-- Help -->
+
+ 
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header bg-dark">
+    <h5 class="offcanvas-title text-danger" id="offcanvasWithBothOptionsLabel">Support</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body bg-dark">
+    
+    <form action="https://api.web3forms.com/submit" method="POST" class="feedback-form">
+      <input type="hidden" name="access_key" value="a0d2d77e-4066-4be9-a363-e9c612a7864a">
+      <br><br><br>
+      <input type="text" placeholder="Your Name" name="name" class=" bg-warning" required><br><br>
+      <input type="text" placeholder="Your Mail ID" name="email" class="bg-warning" required><br><br>
+      <textarea type="msg" name="message" placeholder="Feedback" class="bg-warning" required></textarea><br><br><br>
+      <button type="submit" class="btn btn-danger">Submit</button>
+    </form>
+
+  </div>
+</div>
+
+
+
   <!-- Settings Canvas -->
+
     <div class="offcanvas offcanvas-end bg-dark text-warning" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="offcanvasRightLabel">Settings</h5>
@@ -107,8 +125,10 @@
 <hr class="dropdown-divider-light">
 
 <a href="https://github.com/Ram24102002?tab=repositories"><h6>Repositories</h6></a>      
-<h6>Gallery</h6>
-<h6>Support</h6>
+<a href="https://ram24102002.github.io/livewebsiteabout/#carousel"><h6>Gallery</h6></a>
+<a href="" class=" active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" id="help" ><h6>Support</h6></a>
+          
+
       
       
       
@@ -171,7 +191,7 @@ innovative projects.
 
   <!-- Carousel -->
 
-<div class="bg-dark ">
+<div class="bg-dark" id="carousel">
   <div class="carouseldiv container"> 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-interval="2800" data-bs-pause="false" data-bs-ride="carousel">
       <div class="carousel-inner">

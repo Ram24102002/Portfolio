@@ -7,6 +7,38 @@
     font-family: 'Protest Riot', sans-serif;
 }
 
+.feedback-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input
+{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+textarea
+{
+    height: 80px;
+    width: 370px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+::placeholder
+{
+    font-family: "Teko", sans-serif;
+    color: black;
+    text-align: center;
+}
+
 
 /* main page */
 .frontpgbg
