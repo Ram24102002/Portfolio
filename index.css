@@ -120,10 +120,10 @@
     width: 20%;
 }
 
-.cv-btn
+.skill-btn
 {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     background-color: #f3c143;
     border: none;
@@ -133,12 +133,12 @@
     margin-left: 85%;
     transition: 1s;
 }
-.cv-btn:hover
+.skill-btn:hover
 {
     height: 120px;
     width: 120px;
 }
-.cv-btn:active
+.skill-btn:active
 {
     box-shadow: rgb(243, 230, 230) 0px 1px 40px 1px; 
 }
@@ -333,6 +333,10 @@
         width: 100%;
     }
     .mainimage
+    {
+        opacity: 0;
+    }
+    .skill-btn
     {
         opacity: 0;
     }
