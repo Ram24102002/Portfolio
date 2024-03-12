@@ -16,6 +16,12 @@
 
 }
 
+
+/* #offcanvasWithBothOptionsLabel
+{
+    writing-mode: vertical-lr;
+} */
+
 input
 {
     height: 40px;
