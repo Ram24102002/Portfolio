@@ -162,12 +162,13 @@ textarea
 {
     height: 80px;
     width: 80px;
+    color: aliceblue;
     border-radius: 50%;
-    background-color: #f3c143;
+    background-color: rgb(33,37,41);
     border: none;
     font-weight: 900;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-shadow: rgb(126, 125, 125) 0px 1px 40px 1px;
+    box-shadow: rgb(53, 53, 53) 0px 1px 40px 1px;
     margin-left: 85%;
     transition: 1s;
 }
@@ -210,7 +211,7 @@ textarea
 {
     height: 100%;
     /* object-fit: cover; */
-    filter: brightness(0.6);
+    filter: brightness(0.7);
 }
 .c-img:hover
 {
@@ -239,6 +240,17 @@ textarea
 {
     font-family: 'Bebas Neue', sans-serif;
     margin-top: 70px;
+}
+
+
+#skillhr
+{
+    width: 200px;
+    transition: 1s;
+}
+#skillhr:hover
+{
+    width: 300px;
 }
 
 .secsec, .secsecinbox
@@ -385,7 +397,7 @@ textarea
     }
     .c-item
     {
-        height: 300px;
+        height: 265px;
     }
 
 }
@@ -416,7 +428,6 @@ footer
 {
     height: 635px;
     background-image: url(img-src/fooimg.jpg);
-    background-repeat:
 }
 
 
