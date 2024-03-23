@@ -1,4 +1,8 @@
 
+body
+{
+    background-color: rgb(36,36,36);
+}
 
 /* nav */
 
@@ -331,6 +335,23 @@ textarea
 }
 
 
+.feedback
+{
+    background:linear-gradient(rgb(33,37,41),rgb(37, 35, 35),rgb(36,36,36) );
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: url(https://i.pinimg.com/originals/1d/73/5a/1d735ad8eee8350adc96d50e1421ee6d.gif);
+    object-fit: contain;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: -200px;
+    margin-bottom: 120px;
+}
+
+
 
 @media all and (max-width:600px){
     .button-17
@@ -372,7 +393,20 @@ textarea
         width: 170px;
     }
     
-   
+   .feedback
+   {
+    padding: 90px;
+    height: 300px;
+    width: 400px;
+    margin-top: 65px;
+
+   }
+   .feed-bar
+   {
+    height: 30px;
+    width: 200px;
+    margin-left: -100px;
+   }
 
 }
 
