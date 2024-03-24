@@ -351,6 +351,42 @@ textarea
     margin-bottom: 120px;
 }
 
+.cv-sec
+{
+    height: 600px;
+    width: 100%;
+}
+.cv-as
+{
+    height: 400px;
+    width: 100%;
+    background-color: #222;
+    box-shadow: rgb(124, 125, 125) 0px 0px 40px 0px;
+    font-size: 100px;
+    color: rgb(126, 128, 130);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+}
+.cv-btn
+{
+    font-family: "Anta", sans-serif;
+    color: rgb(255,193,7);
+}
+.cv-btn:hover
+{
+    color: #7a00ff;
+}
+.cv-btn:active
+{
+    color: #ff0000;
+}
+
+
+
+
+
 
 
 @media all and (max-width:600px){
