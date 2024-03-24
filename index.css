@@ -362,7 +362,6 @@ textarea
     width: 100%;
     background-color: #222;
     box-shadow: rgb(124, 125, 125) 0px 0px 40px 0px;
-    font-size: 100px;
     color: rgb(126, 128, 130);
     display: flex;
     justify-content: space-around;
@@ -373,12 +372,18 @@ textarea
 {
     font-family: "Anta", sans-serif;
     color: rgb(255,193,7);
+    font-size: 50px;
 }
-.cv-btn:hover
+.fa-file
+{
+    color: rgb(255,193,7);
+    font-size: 80px;
+}
+.fa-file:hover , .cv-btn:hover
 {
     color: #7a00ff;
 }
-.cv-btn:active
+.fa-file:active , .cv-btn:active
 {
     color: #ff0000;
 }
@@ -443,6 +448,14 @@ textarea
     width: 200px;
     /* margin-left: -100px; */
     margin-left: -80px;
+   }
+   .fa-file
+   {
+    font-size: 70px;
+   }
+   .cv-btn
+   {
+    font-size: 30px;
    }
 
 }
