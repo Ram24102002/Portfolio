@@ -259,7 +259,7 @@ textarea
 
 .secsec, .secsecinbox
 {
-    height: 1200px;
+    height: 800px;
     width: 100%;
     align-items: center;
 }
@@ -293,47 +293,36 @@ textarea
 }
 
 
-/* social */
 
-.sociallinks 
+
+
+
+/* gallery */
+
+.gallery
 {
-    height: 600px;
+    height: 500px;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.soheading
+.video, video
 {
-    height: 75px;
+    height: 150px;
     width: 100%;
-
+    transition: 1s;
 }
 
-.solicard
+.video:hover, video:hover
 {
     height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    text-decoration: none;
+    width: 100%;
 }
 
 
-.socards
-{
-    width: 200px;
-    margin: 10px ;
-}
-
-
-
-#socardscs
-{
-    width: 500px;
-    margin: 10px ;
-}
-
+/* feedback */
 
 .feedback
 {
@@ -347,7 +336,7 @@ textarea
     height: 300px;
     width: 100%;
     border-radius: 20px;
-    margin-top: -200px;
+    margin-top: 200px;
     margin-bottom: 120px;
 }
 
@@ -394,11 +383,66 @@ textarea
 
 
 
+
+/* social */
+
+.sociallinks 
+{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soheading
+{
+    height: 75px;
+    width: 100%;
+
+}
+
+.solicard
+{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.socards
+{
+    width: 200px;
+    margin: 10px ;
+}
+
+
+
+#socardscs
+{
+    width: 500px;
+    margin: 10px ;
+}
+
+
+
+
+
 @media all and (max-width:600px){
     .button-17
     {
         margin-top: -15px;
     }
+
+    .secsec, .secsecinbox
+    {
+        height: 1200px;
+    }
+
+   
+
+
     .sociallinks
     {
         flex-direction: column;
@@ -433,6 +477,13 @@ textarea
     {
         width: 170px;
     }
+
+    .gallery
+    {
+        margin-top: 100px;
+        height: 1000px;
+        flex-wrap: wrap ;
+    }
     
    .feedback
    {
@@ -457,6 +508,11 @@ textarea
    {
     font-size: 30px;
    }
+   video
+    {
+        margin: 10px;
+    }
+
 
 }
 
@@ -483,7 +539,7 @@ textarea
     {
         height: 265px;
     }
-
+    
 }
 
 
