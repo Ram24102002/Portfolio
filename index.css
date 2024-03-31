@@ -20,11 +20,18 @@ body
 
 }
 
-
-/* #offcanvasWithBothOptionsLabel
+.setting
 {
-    writing-mode: vertical-lr;
-} */
+    transition: .5s;
+    font-size: large;
+}
+
+.setting:active
+{
+    transform: rotate(90deg);
+
+}
+
 
 input
 {
