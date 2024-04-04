@@ -296,7 +296,7 @@ textarea
 }
 #skillcards:hover
 {
-    padding: 20px;
+    transform: translateY(-30px) 
 }
 
 
