@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: "Raleway", sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+section
+{
+    
+    text-align: center;
+    background-color: rgb(19,28,21);
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header
+{
+    margin-top: 90px;
+    color: rgb(175, 172, 76);
+    display: block;
+    width: 100%;
+} */
+
+p
+{
+    font-size: 100px;
+    color: blanchedalmond;
+    display: block;
+}
+
+
+aside
+{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+    transition: 1s;
+    /* flex-direction: column; */
+}
+
+
+
+article
+{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(197, 169, 92);
+    border-radius: 20px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.ar-1,.ar-2,.ar-3,.ar-4
+{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(34, 33, 33);
+    transition-duration: 1s;
+    margin-bottom: 100px;
+}
+
+
+/* .as-1:hover,.as-2:hover,.as-3:hover,.as-4:hover */
+article:hover
+{
+    /* height: 250px; */
+    /* width: 350px; */
+    transform: translateY(-30px);
+}
+
+
+
+/* .as-1:hover
+{
+    transform: translateX(600px) translateY(-270px);
+}
+
+.as-2:hover
+{
+    transform: translateX(200px) translateY(-270px);
+}
+
+.as-3:hover
+{
+    transform: translateX(-200px) translateY(-270px);
+}
+
+.as-4:hover
+{
+    transform: translateX(-600px) translateY(-270px);
+} */
