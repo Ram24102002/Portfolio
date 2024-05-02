@@ -51,7 +51,7 @@
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="" class="nav-link text-decoration-underline" style="opacity: 0.8;">About Me</a>
+            <a href="" class="nav-link text-decoration-underline" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="opacity: 0.8;">About Us</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -75,7 +75,7 @@
             <a href="document.html" class="nav-link">Documents</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link text-danger active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" id="help" >Help</a>
+            <a href="" class="nav-link text-danger active" data-bs-toggle="modal" data-bs-target="#exampleModal" id="help" >Help</a>
           </li>
           <li class="nav-item">
             <a href="" class="nav-link text-danger active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="setting" ><i class="fa-solid setting fa-gear"></i></a>
@@ -87,60 +87,7 @@
     
 
   </nav>
-  
 
-<!-- Help -->
-
- 
-<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-  <div class="offcanvas-header bg-dark">
-    <h5 class="offcanvas-title text-danger" id="offcanvasWithBothOptionsLabel">Support</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body bg-dark">
-    
-    <form action="https://api.web3forms.com/submit" method="POST" class="feedback-form">
-      <input type="hidden" name="access_key" value="a0d2d77e-4066-4be9-a363-e9c612a7864a">
-      <br><br><br>
-      <input type="text" placeholder="Your Name" name="name" class=" bg-warning" required><br><br>
-      <input type="text" placeholder="Your Mail ID" name="email" class="bg-warning" required><br><br>
-      <textarea type="msg" name="message" placeholder="Text Area" class="bg-warning" required></textarea><br><br><br>
-      <button type="submit" class="btn btn-danger">Submit</button>
-    </form>
-
-  </div>
-</div>
-
-
-
-  <!-- Settings Canvas -->
-
-    <div class="offcanvas offcanvas-end bg-dark text-warning" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasRightLabel">Settings</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-
-      <div class="form-check form-switch">
-        <label class="form-check-label" for="flexSwitchCheckDefault">  Dark Mode <span class="badge bg-warning">Beta</span></label>
-        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"checked>
-      </div>
-<hr class="dropdown-divider-light">
-
-<a href="https://github.com/Ram24102002?tab=repositories"><h6>Repositories</h6></a>      
-<a href="https://ram24102002.github.io/livewebsiteabout/#carousel"><h6>Gallery</h6></a>
-<a href="" class=" active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" id="help" ><h6>Support</h6></a>
-          
-
-      
-      
-      
-    </div>
-  </div>
-  
-  
-  
 
   <!-- Front -->
 
@@ -150,17 +97,17 @@
       <section class="maintext">
         <h1>Ramachandran Asokan</h1>
 <br>
-        <p class="col-sm-12 objective"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a recent graduate in Computer Applications, I am eager to kickstart my career
-as a Developer. Possessing a solid understanding of Java SQL and Web Technology fundamentals
-acquired through coursework and academic projects. I am enthusiastic about contributing
-my skills to a dynamic development team. Seeking an entry-level position to gain
-practical experience, enhance my programming abilities, and actively contribute to
-innovative projects.
+        <p class="col-sm-12 objective"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm a Software Developer and Tester, currently working in Amazon as a Quality Assurance Engineer.
+          Proficient in Object Oriented Programming, Software Testing, Databases, Data Structures and Algorithms,
+          Operating Systems, Computer Networks, Data Mining, Web Designing, E-Commerce.
+          I ensure top-notch quality in every product.
+          With a commitment to excellence and continuous learning,
+          I'm dedicated to delivering exceptional user experiences.
         </p>
         <br><br>
         <!-- button -->
         <p>
-          <a href="docs-src/Ramachandran-A-Professional-Resume.pdf"><button class="button-85" role="button">CV &nbsp;&nbsp; <i class="fa-solid fa-cloud-arrow-down"></i></button></a>
+          <a href="docs-src/Ramachandran-resume-single-page.pdf"><button class="button-85" role="button">CV &nbsp;&nbsp; <i class="fa-solid fa-cloud-arrow-down"></i></button></a>
         </p>
         <br>
         
@@ -174,9 +121,12 @@ innovative projects.
       </section>
 
       <!-- main image -->
-      <section class="mainimage d-sm-block col-6 col-md-6 col-lg-4">
+      <section class="mainimage  col-6 col-md-6 col-lg-4">
             <div class="mainimgframe d-lg-block">
-              <img src="img-src/design.png" alt="" class="firstimg">
+              <div class="firstimg"><img src="https://atoz-preboarding-app.amazon.work/static/media/Laptop.2645cd1a.prod.svg" alt="" ></div>
+              <div class="amazonimg"><img src="https://atoz-preboarding-app.amazon.work/static/media/smile-mobile.3705a5b9.prod.svg" alt="" ></div>
+              
+              
             </div>
       </section>
 
@@ -188,7 +138,6 @@ innovative projects.
 
 
     
-    <a href="#skilltitle"><button class="skill-btn text">Skills <br><i class="fa-solid fa-code"></i></button></a>
   </section>
 
 
@@ -211,12 +160,12 @@ innovative projects.
         <div class="carousel-item c-item">
           <a href="https://ram24102002.github.io/project-main/"><img src="img-src/E-Shop.png" class="d-block w-100 c-img" alt="E-Shop"></a>
         </div>
-        <div class="carousel-item c-item">
+        <!-- <div class="carousel-item c-item">
           <a href="https://ram24102002.github.io/LiveWebsite/"><img src="img-src/landingpage.png" class="d-block w-100 c-img" alt="landing page"></a>
         </div>
         <div class="carousel-item c-item">
           <a href="https://ram24102002.github.io/dark/"><img src="img-src/darkpage.png" class="d-block w-100 c-img" alt="dark page"></a>
-        </div>
+        </div> -->
 
         <div class="carousel-caption">
           <h3>Front-End Project Models</h3>
@@ -227,8 +176,8 @@ innovative projects.
             <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <!-- <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="5" aria-label="Slide 6"></button> -->
           </div>
           
           <!-- carousel buttons -->
@@ -515,7 +464,149 @@ innovative projects.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ------------------------------------- offcanvas and popups ------------------------------ -->
+
+
+
+  
+
+<!-- Help -->
+
+
+<div class="modal fade bg-dark dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Help</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="https://api.web3forms.com/submit" method="POST" class="feedback-form">
+          <input type="hidden" name="access_key" value="a0d2d77e-4066-4be9-a363-e9c612a7864a">
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" name="name" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Mail ID:</label>
+            <input type="text" class="form-control" name="email" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" name="message" id="message-text"></textarea>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary ms-auto">Submit</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><b>About Me</b> 👦🏻</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <b class="about-p">
+
+<br>
+Hey 👋, I'm <b><i>Ramachandran Asokan,</i></b> a BCA grad passionate about Software.
+<br>
+Currently, I'm working as a <b><i>Associate Quality Services Engineer🧑🏻‍💻 at Amazon 🚚</b>.</i> 
+<br><br>
+<b>My Background</b>
+<br>
+BCA opened the door to my tech journey, leading me to specialize in both Software Developing👩🏻‍💻 and Testing⚙️.
+<br><br>
+<b>What I Do</b>
+<br>
+At Amazon, I ensure seamless digital experiences through rigorous testing and quick issue resolution.
+<br><br>
+<b>Let's Connect</b>
+<br>
+Ready to enhance your digital projects? Reach out via <br><a href="mailto:ramachandran24102002@gmail.com">email📧</a> or <a href="https://www.linkedin.com/in/ramachandran24-asokan/">LinkedIn!📧</a>
+<br>
+
+</p>
+      </div>
+      <div class="modal-footer" style=" display: flex; justify-content: center; align-items: center;">
+        <p>
+          Thanks for visiting my portfolio. Let's make magic happen together✨.</p>
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">X</button> -->
+        <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <!-- Settings Canvas -->
+
+    <div class="offcanvas offcanvas-end bg-dark text-warning" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Settings</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+      <div class="form-check form-switch">
+        <label class="form-check-label" for="flexSwitchCheckDefault">  Dark Mode <span class="badge bg-warning">Beta</span></label>
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"checked>
+      </div>
+<hr class="dropdown-divider-light">
+
+<a href="https://github.com/Ram24102002?tab=repositories"><h6>Repositories</h6></a>      
+<a href="https://ram24102002.github.io/livewebsiteabout/#carousel"><h6>Gallery</h6></a>
+<a href="" class=" active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" id="help" ><h6>Support</h6></a>
+          
+
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+
+
+
+
+
+
+
+
+
     <script src="index.js"></script>
     
 </body>
 </html>
+
+

@@ -56,8 +56,16 @@ textarea
     text-align: center;
 }
 
+.about-p
+{
+    font-size: 13px;
+    font-family: "Teko", sans-serif;
+}
 
-/* main page */
+
+
+
+/* ---------------main page --------------------------- */
 .frontpgbg
 {
     
@@ -69,6 +77,13 @@ textarea
     display: flex;
     flex-wrap: wrap;
     padding-right: 0%;
+    height: 400px;
+    width: 100%;
+}
+
+.maincontainer section
+{
+    height: 100%;
 }
 
 #setting
@@ -169,49 +184,64 @@ textarea
     width: 20%;
 }
 
-.skill-btn
-{
-    height: 80px;
-    width: 80px;
-    color: aliceblue;
-    border-radius: 50%;
-    background-color: rgb(33,37,41);
-    border: none;
-    font-weight: 900;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-shadow: rgb(53, 53, 53) 0px 1px 40px 1px;
-    margin-left: 85%;
-    transition: 1s;
-}
-.skill-btn:hover
-{
-    height: 120px;
-    width: 120px;
-}
-.skill-btn:active
-{
-    box-shadow: rgb(243, 230, 230) 0px 1px 40px 1px; 
-}
+
 
 
 .mainimage
 {
     width: 30%;
-    flex: 1 0 14rem;
+    /* height: 100%; */
+    /* flex: 1 0 14rem; */
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.mainimage img
+{
+    /* height: 50%; */
+    width: 100%;
+    /* margin-top: -200px; */
+    /* filter: drop-shadow(15px 5px 5px rgb(226, 187, 132)) ; */
+}
+
+.mainimgframe
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.mainimgframe div
+{
+
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
 
 
 .firstimg
 {
+    margin-top: 30px;
+    height: 50%;
     width: 70%;
     flex: 1 0 8rem;
+    /* margin-top: 50px; */
 }
 
+.amazonimg
+{
+    height: 50%;
+    width: 80%;
+    flex: 1 0 8rem;
+    margin-top: 50px;
+}
 
-/* carousel */
+/* ---------------------------------------- carousel ------------------------------------ */
 
 .c-item
 {
@@ -451,6 +481,23 @@ textarea
 
 
 
+::-webkit-scrollbar
+{
+    width: 50px;
+}
+
+::-webkit-scrollbar-track
+{
+    background-color: gold;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #111;
+    /* border-radius: 10px; */
+}
+
+
 
 
 @media all and (max-width:600px){
@@ -542,6 +589,11 @@ textarea
         margin: 10px;
     }
 
+    ::-webkit-scrollbar
+{
+    width: 25px;
+}
+
 
 }
 
@@ -605,3 +657,10 @@ a
 {
     text-decoration: none;
 }
+
+
+
+
+
+
+
