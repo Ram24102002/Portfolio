@@ -2,6 +2,7 @@
 body
 {
     background-color: rgb(36,36,36);
+    font-family: "Anta", sans-serif;
 }
 
 /* nav */
@@ -56,12 +57,20 @@ textarea
     text-align: center;
 }
 
+
+
 .about-p
 {
     font-size: 13px;
     font-family: "Teko", sans-serif;
 }
 
+.modal-dialog
+{
+    box-shadow: rgb(148, 148, 148) 0px 0px 40px 0px;
+    border: none;
+    outline: none;
+}
 
 
 
@@ -241,14 +250,13 @@ textarea
     flex: 1 0 8rem;
     /* margin-top: 50px; */
     transition: 1s;
-
+    /* filter: drop-shadow( white 30px 0px 0px ); */
 }
 
-/* .firstimg:hover
+.firstimg:hover
 {
-    height: 60%;
-    width: 80%;
-} */
+    filter: drop-shadow(white  0px 20px 0px  );
+}
 
 .amazonimg
 {
@@ -299,12 +307,39 @@ textarea
 
 
 
+/* ------------------------------------ text carousel ---------------------------------------- */
+
+.carousel-inner2
+{
+    height: 400px;
+    width: 70%;
+    background-color: rgb(210, 189, 189);
+    margin-top: 250px;
+    margin-bottom: 150px;
+    color: #111;
+    text-align: center;
+    border-radius: 20px;
+    font-family: "Anta", sans-serif;
+}
+.carousel-inner2 h1
+{
+    margin-top: 30px;
+}
+
+
+.i2
+{
+    height: 200px;
+}
+
+
+
 
 /* skill  */
 
 .hskill
 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: "Anta", sans-serif;
     margin-top: 70px;
 }
 
@@ -333,6 +368,7 @@ textarea
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Anta", sans-serif;
 
 }
 
@@ -426,8 +462,8 @@ textarea
 }
 .cv-as
 {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 50%;
     background-color: #222;
     box-shadow: rgb(124, 125, 125) 0px 0px 40px 0px;
     color: rgb(126, 128, 130);
@@ -504,6 +540,47 @@ textarea
     margin: 10px ;
 }
 
+
+
+.modal-content-support
+{
+    height: 600px;
+}
+
+.chat-body
+{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-end;
+    font-family: "Anta", sans-serif;
+}
+
+.bot-send-btn
+{
+    margin: 0px 10px 0px 10px;
+    color: white;
+    border: #111 solid;
+    color: black;
+}
+
+.modal-footer-support
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.i-btn
+{
+    border-radius: 50%;
+    margin: 10px;
+}
+.dropdown-menu-support
+{
+    outline: dotted;
+    padding: 20px;
+}
 
 
 ::-webkit-scrollbar

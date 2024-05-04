@@ -103,3 +103,33 @@ article:hover
 {
     transform: translateX(-600px) translateY(-270px);
 } */
+
+
+
+
+
+@media all and (max-width:600px)
+{
+    p
+    {
+        font-size: 50px;
+    }
+    article
+    {
+        height: 100px;
+        width: 100px;
+    }
+    h1
+    {
+        font-size: 13px;
+    }
+    aside
+    {
+        margin-bottom: 0px;
+        /* align-items: flex-start; */
+    }
+    .ar-1,.ar-2,.ar-3,.ar-4
+{
+    margin-bottom: 300px;
+}
+}
