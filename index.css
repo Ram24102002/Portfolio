@@ -613,6 +613,32 @@ textarea
         margin-top: -15px;
     }
 
+    .carousel-inner2
+    {
+        height: 270px;
+        text-align: center;
+    }
+    .carousel-inner2 h1
+    {
+        margin-bottom: 45px;
+    }
+    .carousel-inner2 h2
+    {
+        font-size: 23px;
+    }
+    .carousel-inner2 h4
+    {
+        font-size: 15px;
+    }
+    .carousel-control-prev , .carousel-control-next
+    {
+        display: none;
+    }
+
+
+
+
+
     .secsec, .secsecinbox
     {
         height: 1200px;
