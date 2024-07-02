@@ -2,7 +2,7 @@
 // chat box ================================
 const responses = {
   "hi": "Hello!",
-  "call":"+91-7305790119",
+  "phone number":"+91-7305790119",
   "mail":"ramachandran24102002@gmail.com",
   "linked in":"Ramachandran Asokan",
   "from ?":"chennai",
