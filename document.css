@@ -14,7 +14,7 @@ a
 
 section
 {
-    
+    padding: 50px;
     text-align: center;
     background-color: rgb(19,28,21);
     height: 100dvh;
@@ -30,7 +30,7 @@ section
 
 p
 {
-    font-size: 100px;
+    font-size: 75px;
     color: blanchedalmond;
     display: block;
 }
@@ -38,12 +38,12 @@ p
 
 aside
 {
-    height: 100dvh;
+    /* height: dvh; */
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
     transition: 1s;
     /* flex-direction: column; */
 }
@@ -67,7 +67,7 @@ aside a
 
 img
 {
-    height: 200px;
+    height: 70%;
     width: 100%;
     border-radius: 20px;
     margin-top: 100px;
@@ -80,33 +80,10 @@ img
 
 img:hover
 {
-    /* height: 250px; */
-    /* width: 350px; */
     transform: translateY(-30px);
 }
 
 
-
-
-/* .as-1:hover
-{
-    transform: translateX(600px) translateY(-270px);
-}
-
-.as-2:hover
-{
-    transform: translateX(200px) translateY(-270px);
-}
-
-.as-3:hover
-{
-    transform: translateX(-200px) translateY(-270px);
-}
-
-.as-4:hover
-{
-    transform: translateX(-600px) translateY(-270px);
-} */
 
 
 
@@ -118,11 +95,7 @@ img:hover
     {
         font-size: 50px;
     }
-    article
-    {
-        height: 100px;
-        width: 100px;
-    }
+   
     h1
     {
         font-size: 13px;
